@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>database</title>   
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        const {createPool}=require('mysql')
+        const pool=createPool({
+            host:"localhost",
+            user:"root",
+            password:"password",
+            connectionLimit:10,
+            insecureAuth : true
+        })
+        pool.query(`insert into hollywood.film values(100,"hello")`,(err,res)=>{
+            if(err) console.log(err);
+            const result=res;
+        });
+        const data=document.getElementById('demo')
+        data.innerHTML=`$heelo`
+    </script>
+    
+    </body>
+</html>

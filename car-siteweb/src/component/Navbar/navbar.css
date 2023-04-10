@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
+.motocar__navbar-bg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2F4858;
+    color: #FFE5DD;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+.motocar__navbar-image img{
+    width: 100px;
+    margin: 1rem;
+}
+.motocar__navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.motocar__navbar-links li{
+    list-style: none;
+    
+}
+.motocar__navbar-links a{
+    text-decoration: none;
+    color: #FFE5DD;
+    padding: 1rem;
+    display: block;
+    
+}
+.motocar__navbar-links li:hover{
+    background-color: #5e717d;
+}
+.motocar__navbar-buttons button{
+    font-family: 'Poppins';
+    background: transparent;
+    border: 0;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.first-button{
+    color: #F9F871;
+}
+.first-button:hover{
+    background-color: #4BBC8E;
+}
+.second-button{
+    color: #4BBC8E;
+}
+.second-button:hover{
+    background-color: #F9F871;
+}
+.motocar__navbar-menu{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    display: none;
+}
+
+@media (max-width:800px) {
+    .motocar__navbar-menu{
+        display: flex;
+    }
+    .motocar__navbar-bg{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .motocar__navbar-links{
+        width: 100%;
+       
+    }
+    .motocar__navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .motocar__navbar-links li{
+        text-align: left;
+    }
+}
