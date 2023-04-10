@@ -1,0 +1,41 @@
+.space__feature{
+    display: flex;
+    flex-direction: column;
+    padding-top :0rem ;
+    align-items: left;
+}
+.space__feature-title{
+padding-right:1rem;
+}
+.space__feature-title{
+    background:linear-gradient(90deg, rgb(237, 208, 147) 20%,rgba(255,246,227,1) 25%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /*linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    linear-gradient(90deg, rgba(255,246,227,1) 0%, rgba(2,0,36,1) 48%);
+    */
+    font-size: 18px;
+}
+.space__feature-para{
+    color:#ffff;
+    border: 1px solid rgba(255,246,227,1) ;
+    border-radius: 30px;
+    padding: 1rem 1rem;
+    font-size: 14px;
+    /* ff 3.6+ */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:-moz-radial-gradient(circle at 49% 53%, rgba(242, 168, 44, 1) 8%, rgba(0, 0, 0, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 49% 53%, rgba(242, 168, 44, 1) 8%, rgba(0, 0, 0, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 49% 53%, rgba(242, 168, 44, 1) 8%, rgba(0, 0, 0, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 49% 53%, rgba(242, 168, 44, 1) 8%, rgba(0, 0, 0, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 49% 53%, rgba(242, 168, 44, 1) 8%, rgba(0, 0, 0, 1) 100%);
+}

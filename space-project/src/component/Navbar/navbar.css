@@ -1,0 +1,45 @@
+.space__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.space__navbar-logo{
+    cursor: pointer;
+}
+.space__navbar-logo img{
+    width: 80px;
+}
+.space__navbar-links{
+    display: flex;
+}
+.space__navbar-links a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    padding-right: 2rem;
+    color: #ffff;
+    margin: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.space__navbar-sign {
+    padding: 1rem 2rem;
+}
+.space__navbar-sign button{
+    cursor: pointer;
+    border-radius: 15px;
+    color: black;
+}
+.space__navbar-signin{
+    background: #FFF6E3;
+    padding: 1rem 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.space__navbar-signup{
+    background: #FFD58F;
+    padding: 1rem 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}

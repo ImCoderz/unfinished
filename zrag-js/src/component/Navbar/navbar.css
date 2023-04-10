@@ -1,0 +1,51 @@
+.container__navbar{
+    display: flex;
+    align-items: center;
+}
+.container__navbar-logo{
+    padding: 2rem 6rem;
+}
+.container__navbar-logo img{
+    width: 62.56px;
+    height: 16.02px;
+}
+.container__navbar-links{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+}
+.container__navbar-links p{
+    padding: 1rem ;
+}
+.container__navbar-links a{
+    list-style: none;
+    text-decoration: none;
+    color:#ffff;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+}
+.container__navbar-button{
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-right: 6rem;
+   
+}
+.container__navbar-button_signin{
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    background: transparent;
+    color: #ffff;
+    margin: 1rem;
+}
+.container__navbar-button_signup{
+    background: #FF4820;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    color: #ffff;
+}

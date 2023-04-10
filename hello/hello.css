@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    text-align: center;
+    width: 80%;
+}
+.first{
+    background-color: black;
+    padding: 7px 10px;
+    display: inline-block;
+    margin-bottom: 2rem;
+    border-radius: 14px;
+    box-shadow: 10px 10px 20px 3px;
+}
+.second{
+    padding: 7px 10px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 14px;
+    box-shadow: 10px 10px 20px 3px;
+}

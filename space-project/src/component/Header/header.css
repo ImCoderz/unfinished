@@ -1,0 +1,46 @@
+.space__header{
+    display: flex;
+    justify-content: space-between;
+}
+.space__header-title{
+    padding: 4rem 8rem;
+    flex:1;
+}
+.space__header-title h1{
+    background:linear-gradient(90deg, rgba(2,0,36,1) 20%,rgba(255,246,227,1) 25%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /*linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    linear-gradient(90deg, rgba(255,246,227,1) 0%, rgba(2,0,36,1) 48%);
+    */
+    font-size: 65px;
+    padding: 2rem;
+}
+.space__header-title p{
+    font-size: 30px;
+    color: rgba(255,246,227,1);
+    padding: 2rem;
+}
+.space__header-image{
+    flex:1;
+    padding: 2rem 6rem;
+}
+.space__header-image img{
+    width: 500px;
+}
+.nasa__feature{
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+}
+.nasa__feature em{
+    background:linear-gradient(90deg, rgb(237, 208, 147) 20%,rgba(255,246,227,1) 25%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /*linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    linear-gradient(90deg, rgba(255,246,227,1) 0%, rgba(2,0,36,1) 48%);
+    */
+    font-size: 34px;
+    padding: 1rem 4rem;
+}

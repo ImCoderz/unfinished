@@ -1,0 +1,101 @@
+.header{
+    display: flex;
+    padding: 1rem 6rem;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.header h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    /* or 121% */
+
+    letter-spacing: -0.04em;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top: 2rem;
+    width: 110%;
+    margin-bottom: 1rem;
+}
+.header p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #81AFDD;
+    width: 75%;
+}
+.header__image img{
+    width: 550px;  
+    align-items: flex-end;
+    padding-bottom:6rem;
+    margin-bottom: 2rem;
+    margin: 0rem 1rem;
+}
+.header__content{
+    flex:row;
+    align-items: column;
+    flex-direction: column;
+    padding: 0rem;
+    margin-right: 2rem;
+}
+.header__stat{
+    padding-top: 5rem;
+    display: flex;
+    width: 100%;
+}
+.header__stat img{
+    width: 200px;
+    margin-right: 1rem;
+}
+.header__stat p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    /* identical to box height, or 313% */
+
+
+    color: #FFFFFF;
+}
+.header__image{
+    flex:1;
+    align-items: flex-end;
+}
+.header__input {
+    position: absolute;
+    flex: 1;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #3D6184;
+    
+}
+.header__input input{
+    color: #3D6184;
+    background: #052D56;
+    border-radius: 5px 0px 0px 5px;
+    text-decoration: none;
+    list-style: none;
+    padding: 1rem 8rem;
+    outline: none;
+    border: none;
+}
+.header__input button{
+    background: #FF4820;
+    border-radius: 5px 0px 0px 5px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    padding: 1rem 2rem;
+    margin:1rem 0rem;
+    color: #FFFFFF;
+    border: none;
+
+}

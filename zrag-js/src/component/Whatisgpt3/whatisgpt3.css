@@ -1,0 +1,46 @@
+.gpt3__bg{
+    width: 70%;
+    background: #511ABA;
+    padding: 2rem;
+    align-items: flex-end;
+    margin-left: 11rem;
+}
+.gpt3__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.gpt3__row h1 {
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+
+}
+.gpt3__row h1{
+    width: 70%;
+    padding: 1rem 0rem;
+    margin-bottom:1rem ;
+    padding-bottom: 2rem;
+}
+.gpt3__row p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+
+    color: #81AFDD;
+    padding-left: 2rem ;
+}
+.h12{
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

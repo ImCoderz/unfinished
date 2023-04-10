@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0rem ;
+    scroll-behavior: smooth;
+}
+.section{
+   /* ff 3.6+ */
+   background:-moz-radial-gradient(circle at 0% 0%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 49%);
+
+   /* safari 5.1+,chrome 10+ */
+   background:-webkit-radial-gradient(circle at 0% 0%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 49%);
+
+   /* opera 11.10+ */
+   background:-o-radial-gradient(circle at 0% 0%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 49%);
+
+   /* ie 10+ */
+   background:-ms-radial-gradient(circle at 0% 0%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 49%);
+
+   /* global 92%+ browsers support */
+   background:radial-gradient(circle at 0% 0%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 49%);
+
+}
+.section2{
+    background: #040C18;
+}
